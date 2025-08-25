@@ -8,15 +8,17 @@ Leverage tuning reports and interactive dashboards to choose synthesis settings 
 
 ## Background
 Synthetic data lets analysts explore sensitive datasets without exposing real respondents. Multi-select survey responses are especially tricky to replicate, risking inaccurate representation in summaries and visualizations. This workflow combines automated tuning with targeted validation to safeguard both privacy and data fidelity.
-First option was to use synthpop package, but initial runs were too slow due to high cardinality leading to a huge number of factors built by the CART model.
 This uses an alternative package called bnlearn, whose engine uses Bayesian conditional probabilities. 
 
 ## Process
-In progress...
-
+- Use single-select columns subset to construct the model.
+- Use 5 out 15 column matching between raw dataset and synthetic dataset.
+- If a match is found, insert the multi-select column values from raw to synthetic.
+- View the distributions of synthetic vs. raw and evaluate 
 
 ## Expected Output
-In progress...
+- Synthetic dataset with single-select columns indistinguishable from raw dataset.
+- Frequency distributions 
 
 ---
 
