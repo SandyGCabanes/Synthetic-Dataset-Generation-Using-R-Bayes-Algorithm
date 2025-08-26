@@ -60,6 +60,5 @@ By splitting the dataset into **salary** and **no‑salary** subsets, we can tai
 - **`syn_df_sal.csv` / `syn_df_nosal.csv`** — synthetic datasets.  
 - **`freq_combined.csv` / `freq_combined_ns.csv`** — frequency tables for plotting.  
 - **`all_plots.html` / `all_plots_ns.html`** — interactive HTML reports with per‑variable distribution comparisons.  
-- **PNG plot files** — stored in temp directories during HTML generation.
 
 ---
