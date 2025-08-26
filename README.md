@@ -1,5 +1,3 @@
----
-
 # Synthetic Data Generation & Validation Workflow Using R's bnlearn Package and Distribution Plots
 
 ## Objective  
