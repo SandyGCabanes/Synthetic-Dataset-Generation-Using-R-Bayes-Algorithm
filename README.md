@@ -7,10 +7,8 @@ The goal: allow analysis, sharing, and portfolio demonstration **without exposin
 ---
 
 ## Action from Results  
-- **Two synthetic datasets** generated: one for respondents **with salary data**, one **without**.  
-- **Side‑by‑side frequency distribution plots** for every column, comparing original vs synthetic data.  
-- **HTML reports** produced for quick visual inspection — no need to open R to see the results.  
-- Ready‑to‑share outputs for stakeholders, hiring managers, or public repos without privacy risk.
+- Share the synthetic dataset outputs publicly without any privacy risk.
+- Add to workflow for the next wave of surveys in the Data Engineering Pilipinas group.
 
 ---
 
@@ -37,7 +35,7 @@ By splitting the dataset into **salary** and **no‑salary** subsets, we can tai
 3. **Model & Synthesize**  
    - Learn Bayesian network structure via **Hill‑Climbing**.  
    - Fit conditional probability tables.  
-   - Generate synthetic datasets with the same number of rows as the originals. (Projection to 1000s in progress.)
+   - Generate synthetic datasets with the same number of rows as the originals. (Projection to >n1000 in progress.)
 
 4. **Audit for Privacy**  
    - Tag datasets as `real` or `synthetic`.  
@@ -56,9 +54,8 @@ By splitting the dataset into **salary** and **no‑salary** subsets, we can tai
 ---
 
 ## Outputs  
-- **`df_sal.csv` / `df_nosal.csv`** — cleaned, factorized original subsets.  
-- **`syn_df_sal.csv` / `syn_df_nosal.csv`** — synthetic datasets.  
-- **`freq_combined.csv` / `freq_combined_ns.csv`** — frequency tables for plotting.  
-- **`all_plots.html` / `all_plots_ns.html`** — interactive HTML reports with per‑variable distribution comparisons.  
+- **Merged two synthetic datasets** generated: one for respondents **with salary data**, one **without**.
+- **Side‑by‑side frequency distribution plots** for every column, comparing original vs synthetic data.  
+- **HTML reports** produced for quick visual inspection, can be saved as pdf. No need to open R to see the results.  
 
 ---
