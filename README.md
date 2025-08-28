@@ -9,6 +9,13 @@ The goal: allow analysis, sharing, and portfolio demonstration **without exposin
 ## Action from Results  
 - Share the synthetic dataset outputs publicly without any privacy risk.
 - Add to workflow for the next wave of surveys in the Data Engineering Pilipinas group.
+  
+---
+
+## Outputs  
+- **Side‑by‑side frequency distribution plots** for every column, comparing original vs synthetic data.  
+- **HTML reports** produced for quick visual inspection, can be saved as pdf. No need to open R to see the results.
+- [Distribution Plots of Original and Synthetic Data](full_n774.pdf)
 
 ---
 
@@ -50,10 +57,6 @@ You can read more about bnlearn here: [bnlearn documentation](https://www.bnlear
    - Save plots as PNGs and embed in an **HTML report** for easy review.  
  
 
----
 
-## Outputs  
-- **Side‑by‑side frequency distribution plots** for every column, comparing original vs synthetic data.  
-- **HTML reports** produced for quick visual inspection, can be saved as pdf. No need to open R to see the results.  
 
 ---
