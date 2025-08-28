@@ -53,7 +53,6 @@ You can read more about bnlearn here: [bnlearn documentation](https://www.bnlear
 ---
 
 ## Outputs  
-- **Merged two synthetic datasets** generated: one for respondents **with salary data**, one **without**.
 - **Side‑by‑side frequency distribution plots** for every column, comparing original vs synthetic data.  
 - **HTML reports** produced for quick visual inspection, can be saved as pdf. No need to open R to see the results.  
 
