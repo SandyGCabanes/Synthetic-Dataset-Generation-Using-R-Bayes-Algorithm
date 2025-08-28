@@ -16,7 +16,6 @@ The goal: allow analysis, sharing, and portfolio demonstration **without exposin
 Raw survey data often contains **personally identifiable or sensitive information** (e.g., salary).  
 Directly sharing it — even internally — can breach trust or compliance rules.  
 This workflow uses a **Bayesian network approach** (`bnlearn` in R) to model relationships between variables, then generates synthetic records that mimic the original dataset’s structure and distributions.  
-By splitting the dataset into **salary** and **no‑salary** subsets, we can tailor synthesis and analysis for each case.
 
 ---
 
@@ -28,28 +27,27 @@ By splitting the dataset into **salary** and **no‑salary** subsets, we can tai
    - Normalize text encoding and replace blanks with `"CODEASBLANK"`.  
    - Convert all variables to factors for modeling consistency.
 
-2. **Split Dataset**  
-   - **Salary subset**: respondents with valid salary entries.  
-   - **No‑salary subset**: respondents without salary data. Empty columns deleted to prevent crashing.
-
-3. **Model & Synthesize**  
+2. **Model & Synthesize**  
    - Learn Bayesian network structure via **Hill‑Climbing**.  
    - Fit conditional probability tables.  
-   - Generate synthetic datasets with the same number of rows as the originals. (Projection to >n1000 in progress.)
+   - Generate synthetic datasets with the same number of rows as the originals. 
 
-4. **Audit for Privacy**  
+3. **Audit for Privacy**  
    - Tag datasets as `real` or `synthetic`.  
    - Combine and check for **exact record matches** across all factor combinations.
    - Interventions to further reduce similarity of synthetic data to raw data. (Work in progress.)
+   - Export duplication check as csv file.
+   - Export both cleaned raw df and synthetic df as csv files for frequency distribution plots.
 
-5. **Frequency Distributions**  
+4. **Frequency Distributions**  
    - Compute per‑variable counts and proportions for both real and synthetic datasets.  
    - Combine into a single table for plotting.
+   - Export combined long table of frequencies as csv.
 
-6. **Visualization & Export**  
+5. **Visualization & Export**  
    - Loop through all variables, generating **side‑by‑side bar plots** (Original vs Synthetic).  
    - Save plots as PNGs and embed in an **HTML report** for easy review.  
-   - Export CSVs for synthetic datasets and frequency tables.
+ 
 
 ---
 
