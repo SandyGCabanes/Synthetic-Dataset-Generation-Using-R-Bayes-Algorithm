@@ -41,8 +41,11 @@ You can read more about bnlearn here: [bnlearn documentation](https://www.bnlear
 
 2. **Model & Synthesize**  
    - Learn Bayesian network structure via **Hill‑Climbing**. Below is the resulting network. ![Bayesian network graph](bn_network_graph.PNG)
-   - Fit conditional probability tables.  
-   - Generate synthetic datasets with the same number of rows as the original dataset. 
+   - Fit conditional probability tables.
+   - Set target duplication = 20.  Set max iterations = 2000. Start loop.
+   - Generate synthetic datasets with the same number of rows as the original dataset.
+   - Check if duplicate count is = 20. If > 20, loop back to generation step. Stop if met.
+   - If duplicate count = 20, save seed, and save synthetic dataset. 
 
 3. **Audit for Privacy**  
    - Tag datasets as `real` or `synthetic`.  
