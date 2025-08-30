@@ -1,4 +1,4 @@
-# Synthetic Data Generation & Validation Workflow Using R's bnlearn Package and Distribution Plots
+# Synthetic Data Generation & Validation Using R's bnlearn Package 
 
 ## Objective  
 Turn sensitive survey responses into **privacy‑safe synthetic datasets** while keeping the statistical patterns intact.  
