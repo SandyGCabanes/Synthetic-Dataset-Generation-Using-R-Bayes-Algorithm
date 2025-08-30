@@ -28,7 +28,9 @@ You can read more about bnlearn here: [bnlearn documentation](https://www.bnlear
 
 ---
 
-## Workflow: [Generate dataset workflow](workflow_bnlearn.txt)  [Generate frequency distributions workflow](workflow_plots.txt)
+## Workflow: 
+### [Click here to see workflow for generating the synthetic dataset](workflow_bnlearn.txt)  
+### [Click here to see workflow for generating the plots](workflow_plots.txt)
 1. **Load & Preprocess**  
    - Read raw survey CSV, already cleaned of identifiers.  
    - Create an `age_grp` factor from numeric age.  
