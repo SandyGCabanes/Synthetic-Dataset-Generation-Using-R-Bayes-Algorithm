@@ -36,7 +36,7 @@ You can read more about bnlearn here: [bnlearn documentation](https://www.bnlear
    - Convert all variables to factors for modeling consistency.
 
 2. **Model & Synthesize**  
-   - Learn Bayesian network structure via **Hill‑Climbing**.  
+   - Learn Bayesian network structure via **Hill‑Climbing**. [Bayesian network graph](bn_network_graph.PNG)
    - Fit conditional probability tables.  
    - Generate synthetic datasets with the same number of rows as the originals. 
 
