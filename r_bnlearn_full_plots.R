@@ -106,6 +106,9 @@ for (i in idx) {
   plot_value <- freq_combined_full %>%
     filter(variable == colvals[i])
   
+  # convert the x-label as string for truncation
+  plot_value$value <- str_trunc(as.character(plot_value$value), width = 25, side = "right")
+  
   # Find the longest label length for this variable
   max_label_len <- max(nchar(as.character(plot_value$value)), na.rm = TRUE)
   
@@ -166,5 +169,6 @@ cat("PNG images in:", png_dir, "\n")
 detach("package:htmltools", unload = TRUE)
 
 print("Print the html file as pdf (Optional)")
+
 
 
