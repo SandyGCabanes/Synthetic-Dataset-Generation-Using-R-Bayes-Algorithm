@@ -16,7 +16,7 @@ The goal: allow analysis, sharing, and portfolio demonstration **without exposin
 - Comparable distributions per column: based on **Side‑by‑side frequency distribution plots** for every column, comparing original vs synthetic data
 - ![Age Group: Original vs. Synthetic](plots_dir/age_grp.PNG)
 - ![Educational Status: Original vs. Synthetic](plots_dir/educstat.PNG)
-- Click here to see all the plots. [Distribution Plots of Original and Synthetic Data](full_n774.pdf)
+- Click here to see all the plots. [Distribution Plots of Original and Synthetic Data]([original_n774_vs_synthetic_deduped_n743.pdf))
 - **Salary vs. education stacked bar plots** indicate slight deviations from original dataset. This is expected based on the algorithm.
 - ![Original salary vs. education splits](sal_vs_educ_actual.PNG)
 - ![Synthetic salary vs. education splits](sal_vs_educ_synth.PNG)
