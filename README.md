@@ -52,7 +52,7 @@ You can read more about bnlearn here: [bnlearn documentation](https://www.bnlear
    - Tag datasets as `real` or `synthetic`.  
    - Combine and check for **exact record matches** across all factor combinations.
    - Export duplication check containing synthetic rows for deletion in a csv file.
-   - Drop row_ids of synthetic dataset identified as similar to original dataset.
+   - **Drop row_ids of synthetic dataset** identified as similar to original dataset.
    - Export both original df and cleaned synthetic df for frequency distribution plots.
 
 4. **Frequency Distributions**  
