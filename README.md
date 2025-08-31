@@ -63,6 +63,7 @@ The goal: allow analysis, sharing, and portfolio demonstration **without exposin
 5. **Visualization & Export**  
    - Loop through all variables, generating **side‑by‑side bar plots** (Original vs Synthetic).  
    - Save plots as PNGs and embed in an **HTML report** for easy review.
-   - Quick check: Salary vs. Educational status stacked bar plots to identify areas for manual editing.
+   - Quick checks: Salary by Career Stage and by Education Status.
+   - Manually edit the Synthetic dataset to delete the few random entries for Salary among Career Stage = Students and Educational Status = Secondary education. 
 
 ---
