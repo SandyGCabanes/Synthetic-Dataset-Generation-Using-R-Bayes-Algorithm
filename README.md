@@ -14,8 +14,8 @@ The goal: allow analysis, sharing, and portfolio demonstration **without exposin
 
 ## Findings  
 - Comparable distributions per column: based on **Side‑by‑side frequency distribution plots** for every column, comparing original vs synthetic data.
-- Click here to see all the plots. [Distribution Plots of Original and Synthetic Data](original_n774_vs_synthetic_deduped_n743.pdf)
-- 
+- **Click here** to see all the plots. [Distribution Plots of Original and Synthetic Data](original_n774_vs_synthetic_deduped_n743.pdf)
+  
 - ![Age Group: Original vs. Synthetic](plots_dir/age_grp.PNG)
 - ![Educational Status: Original vs. Synthetic](plots_dir/educstat.PNG)
 
