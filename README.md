@@ -25,7 +25,7 @@ The goal: allow analysis, sharing, and portfolio demonstration **without exposin
 ## Background  
 Raw survey data often contains **personally identifiable or sensitive information** (e.g., salary).  
 Directly sharing it — even internally — can breach trust or compliance rules.  
-This workflow uses a **Bayesian network approach** (`bnlearn` in R) to model relationships between variables, then generates synthetic records that mimic the original dataset’s structure and distributions.  
+This workflow uses a **Bayesian network approach** (`bnlearn` in R) to model relationships between variables, then generates synthetic records that mimic the original dataset’s structure and distributions.  As an added step, rows from synthetic dataset matching the rows from the original dataset are dropped.
 You can read more about bnlearn here: [bnlearn documentation](https://www.bnlearn.com/documentation/)
 
 ---
