@@ -1,14 +1,14 @@
 # Synthetic Data Generation & Validation Using R's bnlearn Package 
 
-## Objective  
+## Why This Project Exists:  
 Turn sensitive survey responses into **privacy‑safe synthetic datasets** while keeping the statistical patterns intact.  
 The goal: allow analysis, sharing, and portfolio demonstration **without exposing any respondent’s real data**.
 
 ---
 
-## Action from Results  
-- Share the synthetic dataset outputs publicly without any privacy risk.
-- Add to workflow for the next wave of surveys in the Data Engineering Pilipinas group.
+## What This Project Produces and Whom This is For:  
+- The end product is a synthetic dataset that can be shared publicly without any privacy risk.
+- For my current workflow as Survey Lead for the Data Engineering Pilipinas group.
   
 ---
 
